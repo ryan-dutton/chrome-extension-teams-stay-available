@@ -3,7 +3,7 @@
 
 When using the web-based version of Teams I was finding that my status was being set to 'away' incorrectly.
 
-The extension simply calls window.focus() every 10 seconds. 
+The extension simply calls window.focus() every 10 seconds for URLs starting with https://teams.microsoft.com. 
 
 How to install:
 - Simply download the Zip file and extract OR clone this repository.
